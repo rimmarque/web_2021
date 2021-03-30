@@ -1,0 +1,58 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 56px;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+    line-height: 1.0;
+    display: flex;
+}
+
+.intro {
+	width: 100%;
+	height: 100vh;
+	background: white;
+}
+
+.secondground {
+	width: 100%;
+	height: 100vh;
+	background: black;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.thirdground {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 33px;
+    line-height: 1.5;
+}
+
+.fouthground {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 33px;
+    line-height: 1.5;
+}
+
+.fifthground {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 33px;
+    line-height: 1.5;
+}
