@@ -1,6 +1,8 @@
 body {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 56px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
 }
 
 *,
@@ -17,15 +19,26 @@ body {
     display: flex;
 }
 
+table {
+    width: 100%; /* Ширина таблицы */
+    background:black; /* Цвет фона таблицы */
+    color: black; /* Цвет текста */
+    border-spacing: 2px; /* Расстояние между ячейками */
+   }
+   td, th {
+    background: white; /* Цвет фона ячеек */
+    padding: 5px; /* Поля вокруг текста */
+   }
+
 ul.hr {
-    margin: 0; /* Обнуляем значение отступов */
-    padding: 4px; /* Значение полей */
+    margin: 0;
+    padding: 4px;
    }
    ul.hr li {
-    display: inline; /* Отображать как строчный элемент */
-    margin-right: 150px; /* Отступ слева */
+    display: inline;
+    margin-right: 150px;
     margin-left: 150px;
-    padding: 3px; /* Поля вокруг текста */
+    padding: 3px;
    }
 
 .intro {
