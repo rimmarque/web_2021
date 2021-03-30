@@ -1,8 +1,16 @@
 body {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 56px;
+}
+
+.secondbody {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
+}
+
+body table {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5px;
 }
 
 *,
