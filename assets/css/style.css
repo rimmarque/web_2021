@@ -17,6 +17,17 @@ body {
     display: flex;
 }
 
+ul.hr {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+   }
+   ul.hr li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 150px; /* Отступ слева */
+    margin-left: 150px;
+    padding: 3px; /* Поля вокруг текста */
+   }
+
 .intro {
 	width: 100%;
 	height: 100vh;
@@ -41,3 +52,8 @@ body {
     line-height: 1.5;
 }
 
+.fourthground {
+    width: 100%;
+    height: 100vh;
+    font-size: 33px;
+}
